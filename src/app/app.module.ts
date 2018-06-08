@@ -3,13 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { JobberComponent } from './jobber/jobber.component';
-import { EnduserComponent } from './jobber/enduser/enduser.component';
+import { EnduserComponent } from './enduser/enduser.component';
+import { ServicesListComponent } from './enduser/services-list/services-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     JobberComponent,
-    EnduserComponent
+    EnduserComponent,
+    ServicesListComponent
   ],
   imports: [
     BrowserModule
